@@ -14,7 +14,6 @@ var countLetters = function (input) {
   var letterCount = {};
 
   input.forEach(function(letter) {
-    letterCount[letter] = 1;
     if (letterCount[letter] === undefined) letterCount[letter] = 0;
     letterCount[letter] += 1;
   });
